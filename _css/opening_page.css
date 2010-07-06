@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+/* CSS for MR News Opening Page
+Version 1.0 Modified 6/30/10 */
+
+body {
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-color: #B0B0B0;
+}
+
+#container {
+	height: 600px;
+	width: 800px;
+	background-repeat: no-repeat;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	background-position: center top;
+	}
+
+#interface_wrapper {
+	height:261px;
+	width:600px;
+	margin-right: auto;
+	margin-left: auto;
+	}
+
+
+#visitor_div {
+	text-align:center; /* comment */
+	height: 250px;
+	width: 125px;
+	background-color: #0CF;
+	float: left;
+	padding: 0px;
+	margin-top: 0px;
+	}
+
+#img_pass_lounge {
+	margin: 0px;
+	border:none;
+	}
+#login_div {
+	text-align:center;
+	background: #0CF;
+	height: 250px;
+	width: 460px;
+	float: left;
+	margin-top: 0px;
+	border-left-width: thick;
+	border-left-style: groove;
+	border-left-color: #000;
+	}
+
+
+#img_to_trains {
+	float: left;
+	margin-top: -8px;
+	}
+/* This is Click here to become Member etc.*/
+#loginDiv_sidebar {
+	float: left;
+	text-align:center;
+	clear:left;
+	font-size: 12px;
+	font-style: italic;
+	font-weight: bold;
+	margin-left: 10px;
+	margin-top:10px;
+	margin-right: 10px;
+	}
+
+/* This is the Box for the Copyright*/	
+#footer {
+	text-align:center;
+	background-color: white;
+	height: 20px;
+	width: 550px;
+	clear: left;
+	}
+
+#credits {
+	font-size: 10px;
+	}

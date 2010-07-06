@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+/* CSS for MR Media Opening Page */
+
+body {
+	background-attachment: fixed;
+	background-image: url(file:///F|/mr_media/_images/open_page_bkgrd.png);
+	background-position: center top;
+	}
+	
+h1 {
+	background-color:pink;
+	margin-top:350px;
+	text-align: center;
+	padding-left:200px;
+	padding-right:200px;
+	}
+		
+	
+p {
+	background-color:pink;
+	margin-top:350px;
+	text-align: center;
+	padding-left:200px;
+	padding-right:200px;
+	}
+	
+#open_wrapper {
+	position:absolute;
+	left:91px;
+	top:326px;
+	width:256px;
+	height:234px;
+	z-index:1;
+	}
+
+#header {
+	color:#fff;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-style: oblique;
+	height: 100px;
+	text-align: center;
+	padding: 0px;
+	margin-top: 90px;
+	margin-left: 20px;}
+
+
+
+#leftside {
+	height: 200px;
+	width: 125px;
+	background-color: #0CF;
+	float: left;
+	padding: 0px;
+	margin-top: 0px;
+}
+
+#rightside {
+	background: #0C0;
+	height: 200px;
+	width: 125px;
+	float: left;
+	margin-top: 0px;
+}
+	
+#footer {
+	background-color: pink;
+	height: 30px;
+	width: 250px;
+	clear: left;
+}
+#credits {
+	font-size: 10px;
+}

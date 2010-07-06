@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<title>All Your Rail Info</title>
+<link href="_css/opening_page.css" rel="stylesheet" type="text/css" media="screen, projection" />
+
+<style type="text/css">
+a:link {
+	color: #000;
+	}
+a:visited {                            
+	color: #000;
+	}
+a:hover {
+	color: #FFF;
+	background-color:#666
+	}
+a:active {
+	color: #000;
+	}
+body {
+	background-repeat: repeat;
+}
+</style>
+		</head>
+
+<body background="_images/bkgrd.png"> 
+<div id="container">
+<img src="_images/mrn_open_page_bkgrd_image.png" width="800" height="300" alt="Rail Crossing Image" />
+
+<div id="interface_wrapper"> <!--This contains the Visitor and Login elements "interface wrapper" is inside "container"-->
+  
+<div id="visitor_div"> <!--This is the box for the "Visitors Click Here" Section-->
+<p><a href="visitors/v_home.html">Visitors Click Here</a></p>
+<p><a href="visitors/v_home.html"><img src="_images/pass_lounge_door.gif" alt="passenger Lounge Icon" name="img_pass_lounge" width="125" height="187" id="img_pass_lounge" /></a></p>
+</div> <!-- Close visitor_div -->
+
+<div id="login_div">
+<p> OR </p>
+<img src="_images/sign_to_trains_arrow_129x41.png" name="img_to_trains" width="111" height="45" id="img_to_trains" />
+<div id="loginDiv_sidebar"> <!--This is the box to the left of Login-->
+<p><a href="reg_pg.html">Become a Member<br/>Click Here!</a></p>
+<p>Forgot my Password<br/>Click Here</p>
+</div> <!-- Close loginDiv_sidebar div --> 
+<div id="login_form">
+<fieldset>
+  <legend>Member Login</legend>
+  <form id="mem_login" name="mem_login" method="post" action="">
+    <p>
+      <label for="user_name">User Name:</label>
+      <input type="text" name="user_name" id="user_name" tabindex="10" />
+    </p>
+    <p>
+      <label for="password">Password:</label>
+      <input type="text" name="password" id="password" tabindex="20" />
+    </p>
+    <p>
+      <input name="btn_submit" type="button" id="btn_submit" tabindex="30" value="Submit" />
+    </p>
+  </form></fieldset>
+</div> <!--Close login_form Div-->
+  
+</div> <!-- Close login_div -->
+
+
+
+<div id="footer">
+<id="credits"><em>Copyright © 2010 <strong>ModelRailMedia.com</strong> All rights reserved</em>
+</div>
+
+</div>
+</div> <!-- close container div --> 
+ 
+</body>
+</html>
